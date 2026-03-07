@@ -1,7 +1,7 @@
 const { Pool } = require('pg');
 require('dotenv').config();
 
-// This uses the DATABASE_URL from your .env file!
+
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL
 });
